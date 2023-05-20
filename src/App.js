@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 
-
-function HelloWorld(props) {
-  const { name } = props;
-  return <h1> Hello, {name}! </h1>;
+class HelloWorld extends React.Component {
+  render () {
+    const {value} = this.props;
+    return <h1> Hello, {value}</h1>;
+  }
 }
-
 
 export { HelloWorld };
