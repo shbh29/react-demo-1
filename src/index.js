@@ -5,4 +5,4 @@ import { HelloWorld } from './App';
 const rootEl = document.getElementById('root');
 
 
-ReactDOM.render(<HelloWorld />, rootEl);
+ReactDOM.render(<HelloWorld name="Shubham" value={42} />, rootEl);

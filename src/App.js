@@ -2,8 +2,9 @@ import React from 'react';
 import './App.css';
 
 
-function HelloWorld() {
-  return <h1> Hello, Function Component! </h1>;
+function HelloWorld(props) {
+  const { name } = props;
+  return <h1> Hello, {name}! </h1>;
 }
 
 
