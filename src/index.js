@@ -1,8 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { HelloWorld } from './App';
+import { Welcome } from './App';
 
 const rootEl = document.getElementById('root');
 
+let app = (
+<div>
+  <Welcome value='Shubham' />
+  <Welcome value='Akash' />
+  <Welcome value='Tejas!' />
+</div>
 
-ReactDOM.render(<HelloWorld name="Shubham" value={42} />, rootEl);
+)
+
+console.log(app);
+ 
+ReactDOM.render(app, rootEl);
