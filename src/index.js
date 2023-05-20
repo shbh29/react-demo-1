@@ -5,12 +5,11 @@ import { Welcome } from './App';
 const rootEl = document.getElementById('root');
 
 let app = (
-<div>
+<>
   <Welcome value='Shubham' />
   <Welcome value='Akash' />
   <Welcome value='Tejas!' />
-</div>
-
+</>
 )
 
 console.log(app);
